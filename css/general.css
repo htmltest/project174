@@ -424,13 +424,13 @@ header {position:fixed; left:0; top:0; right:0; z-index:99; background:#fff; hei
     .mobile-menu-open header {background:#fff}
 }
 
-.logo {float:left; width:187px; height:46px; background:url(../images/logo.svg) no-repeat; margin:20px 0 0 0; position:relative; background-size:100% auto; transition:all 0.5s}
-.header-fixed .logo {width:116px; height:28px; margin:18px 0 0 0}
+.logo {float:left; width:63px; height:66px; background:url(../images/logo.svg) no-repeat; margin:7px 0 0 0; position:relative; background-size:100% 100%; transition:all 0.5s}
+.header-fixed .logo {width:46px; height:48px; margin:8px 0 0 0}
 .logo a {display:block; position:absolute; left:0; top:0; right:0; bottom:0}
 
 @media screen and (max-width:1169px) {
     .logo,
-    .header-fixed .logo {width:177px; height:44px; margin:20px 0 0 0}
+    .header-fixed .logo {width:62px; height:64px; margin:9px 0 0 0}
 }
 
 .header-title {float:left; margin:29px 0 0 53px; position:relative; width:163px; font-size:12px; line-height:14px; font-weight:normal; color:#727272; transition:all 0.5s}
@@ -765,14 +765,14 @@ footer .container {position:relative}
     .footer-contacts-all a:hover::after {width:29px; height:12px; background:url(../images/footer-all-mobile.svg) no-repeat; position:relative; right:auto; top:auto; display:inline-block; vertical-align:middle; margin:-2px 0 0 12px}
 }
 
-.footer-left {float:left; margin:45px 0 0 0}
+.footer-left {float:left; margin:35px 0 0 0}
 
 @media screen and (max-width:1169px) {
-    .footer-left {float:none; margin:33px -20px 0 -20px; border-top:1px solid rgba(162, 162, 162, 0.3); padding:40px 0 0 0}
+    .footer-left {float:none; margin:33px -20px 0 -20px; border-top:1px solid rgba(162, 162, 162, 0.3); padding:30px 0 0 0}
 }
 
-.footer-logo {width:193px; height:48px; background:url(../images/logo.svg) no-repeat; background-size:100% auto}
-.footer-title {font-weight:normal; font-size:12px; line-height:14px; color:#363636; margin:15px 0 0 0}
+.footer-logo {width:63px; height:66px; background:url(../images/logo.svg) no-repeat; background-size:100% 100%}
+.footer-title {font-weight:normal; font-size:12px; line-height:14px; color:#363636; margin:5px 0 0 0}
 
 @media screen and (max-width:1169px) {
     .footer-logo {width:329px; height:78px; margin:0 auto}
